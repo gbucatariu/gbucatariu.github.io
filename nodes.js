@@ -5,7 +5,7 @@
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
     // set attributes
-    dialog.setAttribute("header-text", "Third Party JavaScript");
+    dialog.setAttribute("header-text", "Ana stie Javascript !");
     footer.setAttribute("slot", "footer");
     // content
 //content.innerHTML = "This dialog was created by third party JS file";
