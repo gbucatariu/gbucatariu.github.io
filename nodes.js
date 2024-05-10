@@ -8,7 +8,8 @@
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
     // content
-    content.innerHTML = "This dialog was created by third party JS file";
+//content.innerHTML = "This dialog was created by third party JS file";
+content.innerHTML = '<object type="type/html" data="www.google.com"  ></object>';
     content.style.padding = "1rem";
     // footer btn
     footerBtn.onclick = () => dialog.close();
